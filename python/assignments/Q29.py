@@ -6,6 +6,6 @@ desired_output = "norueNi"
 '''
 
 string = "Big Data iNeuron"
-desired_output = string[9:]
+desired_output = string[-1:-8:-1]
 
 print(desired_output)
