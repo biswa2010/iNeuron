@@ -213,6 +213,20 @@ for num in range(1,6):
  ****
 *****
 '''
+star = "*"
+space = " "
+itr = range(1,6)
+for num in itr:
+    i = 1
+    j = 1
+    while len(itr)-num >= i:
+        print(space, end = "")
+        i += 1
+    
+    while num >= j:
+        print(star, end = "")
+        j += 1
+    print()
 
 #Q98. Write a python program to print below pattern.
 '''
