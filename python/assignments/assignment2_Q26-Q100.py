@@ -237,6 +237,21 @@ for num in itr:
 * * * * * 
 '''
 
+star = "* "
+space = " "
+itr = range(1,6)
+for num in itr:
+    i = 1
+    j = 1
+    while len(itr)-num >= i:
+        print(space, end = "")
+        i += 1
+    
+    while num >= j:
+        print(star, end = "")
+        j += 1
+    print()
+
 #Q99. Write a python program to print below pattern.
 '''
 1 
