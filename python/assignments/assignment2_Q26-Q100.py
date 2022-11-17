@@ -82,6 +82,10 @@ lst = ["Welcome", "to", "Data", "course"]
 #Q52. How is frozen set different from set?
 
 #Q53. What is union() in sets? Explain via code.
+a = {1,2,3}
+b = {4,5,6,6}
+c = a | b
+print(c)
 
 #Q54. What is intersection() in sets? Explain via code.
 
