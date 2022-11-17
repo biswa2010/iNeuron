@@ -30,3 +30,9 @@ desired_output = string[-1::-1]
 
 print(desired_output)
 
+#Q33. How can you print the below string?
+'''
+'iNeuron's Big Data Course'
+'''
+string = "'iNeuron\'s Big Data Course'"
+print(string)
