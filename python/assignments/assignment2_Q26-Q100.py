@@ -96,6 +96,7 @@ lst = ["Welcome", "to", "Data", "course"]
 var = {}
 print(type(var))
 '''
+<class 'dict'>
 
 #Q59. How can we add an element in a dictionary?
 
