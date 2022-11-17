@@ -275,10 +275,22 @@ C C C
 D D D D 
 E E E E E 
 '''
+''' 
+Approach-1
 alphaList = ['A','B','C','D','E']
 for num in range(0,5):
     i = 0
     while i <= num:
         print(alphaList[num], end = " ")
+        i += 1
+    print()
+'''
+#Approach-2
+alpha = 65
+for num in range(0,5):
+    i = 0
+    char = chr(alpha + num)
+    while i <= num:
+        print(char, end = " ")
         i += 1
     print()
