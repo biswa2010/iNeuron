@@ -170,6 +170,12 @@ print(type(var))
 Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
 Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
 '''
+input = [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+output = {}
+for pair in input:
+    output[pair[0]] = pair[1]
+print(output)
+
 
 #Q93. Write a Python program to create a list of tuples from given list having number and its cube in each tuple.
 '''
