@@ -182,6 +182,12 @@ print(output)
 Input: list = [9, 5, 6]
 Output: [(9, 729), (5, 125), (6, 216)]
 '''
+input = [9, 5, 6]
+output = []
+
+for num in input:
+    output.append((num, num * num * num))
+print(output)
 
 #Q94. Write a Python program to get all combinations of 2 tuples.
 '''
