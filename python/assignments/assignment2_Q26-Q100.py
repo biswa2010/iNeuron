@@ -183,6 +183,19 @@ Input : test_tuple1 = (7, 2), test_tuple2 = (7, 8)
 Output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
 '''
 
+test_tuple1 = (7, 2) 
+test_tuple2 = (7, 8)
+output = []
+
+for i in test_tuple1:
+    for j in test_tuple2:
+        pair_1 = (i,j)
+        pair_2 = (j,i)
+        output.append(pair_1)
+        output.append(pair_2)
+
+print(output)
+
 #Q95. Write a Python program to sort a list of tuples by second item.
 '''
 Input : [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
