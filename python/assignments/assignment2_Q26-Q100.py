@@ -275,3 +275,10 @@ C C C
 D D D D 
 E E E E E 
 '''
+alphaList = ['A','B','C','D','E']
+for num in range(0,5):
+    i = 0
+    while i <= num:
+        print(alphaList[num], end = " ")
+        i += 1
+    print()
