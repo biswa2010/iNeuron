@@ -197,6 +197,14 @@ Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
 * * * * 
 * * * * * 
 '''
+star = "*"
+for num in range(1,6):
+    i = 1
+    while i <= num:
+        print(star, end = " ")
+        i += 1
+    print()
+
 #Q97. Write a python program to print below pattern.
 '''
     *
