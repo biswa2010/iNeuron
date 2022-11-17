@@ -260,7 +260,13 @@ for num in itr:
 1 2 3 4 
 1 2 3 4 5
 '''
-
+for num in range(1,6):
+    i = 1
+    while i <= num:
+        print(i, end = " ")
+        i += 1
+    print()
+    
 #Q100. Write a python program to print below pattern.
 '''
 A 
