@@ -107,20 +107,40 @@ But yes we can create another tuple with appended values
 #Q44. Take a tuple as an input and print the count of elements in it.
 
 #Q45. What are sets in Python?
+'''
+Sets are a collection which contains unique values and these are unordered and unindexed.
+'''
 
 #Q46. How can you create a set?
 
+set_1 = set()
+set_2 = {1,2,"hello"}
+
 #Q47. Create a set and add "iNeuron" in your set.
+
+set_value = set()
+set_value.add("iNeuron")
+
 
 #Q48. Try to add multiple values using add() function.
 
 #Q49. How is update() different from add()?
 
 #Q50. What is clear() in sets?
+'''
+clear() in sets used to clear all the elements available in that set and the set becomes an empty set.
+'''
 
 #Q51. What is frozen set?
 
+'''
+frozenset in an immutable set which can be created by passing iterable object. And it stores unique elements like sets.
+'''
+
 #Q52. How is frozen set different from set?
+'''
+frozensets are immutable unlike set and frozenset can only be created by passing iterable object(we can't create it by passing any non iterable object/variable). 
+'''
 
 #Q53. What is union() in sets? Explain via code.
 a = {1,2,3}
