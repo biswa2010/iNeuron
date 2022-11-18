@@ -60,14 +60,37 @@ print(lst[4][2])
 
 #Q38. Take a list as an input from the user and find the length of the list.
 
+size = int(input("Enter the list size:"))
+
+print("Enter the list elements:")
+lst = []
+for i in range(0,size):
+    num = int(input())
+    lst.append(num)
+print(lst)
+
+
 #Q39. Add the word "Big" in the 3rd index of the given list.
 '''
 lst = ["Welcome", "to", "Data", "course"]
 '''
+lst = ["Welcome", "to", "Data", "course"]
+
+lst.insert(2, "Big")
+print(lst)
 
 #Q40. What is a tuple? How is it different from list?
 
+'''
+Tuple is similar to list but it is defined using "()" and it is IMMUTABLE.
+'''
+
 #Q41. How can you create a tuple in Python?
+
+tupple = () # Empty tupple
+tupple_2 = ("hello", 1, true)
+tupple_3 = ("single element tupple",) # for single element needs to add comma else its a string
+
 
 #Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
