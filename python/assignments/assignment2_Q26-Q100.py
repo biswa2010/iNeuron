@@ -156,9 +156,9 @@ c = a & b
 print(c)
 
 #Q55. What is dictionary in Python?
-
+'''
 Its a key value pair where keys are unique where keys can be either an integer or a string and values can be anything
-
+'''
 #Q56. How is dictionary different from all other data structures.
 
 #Q57. How can we delare a dictionary in Python?
