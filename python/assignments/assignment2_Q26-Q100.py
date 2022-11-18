@@ -87,14 +87,22 @@ Tuple is similar to list but it is defined using "()" and it is IMMUTABLE.
 
 #Q41. How can you create a tuple in Python?
 
-tupple = () # Empty tupple
-tupple_2 = ("hello", 1, true)
-tupple_3 = ("single element tupple",) # for single element needs to add comma else its a string
+tuple = () # Empty tupple
+tuple_2 = ("hello", 1, true)
+tuple_3 = ("single element tuple",) # for single element needs to add comma else its a string
 
 
 #Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+'''
+No not able to add, as its immutable in nature.
+'''
 
 #Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+
+'''
+No two tuples can't be appended, as its immutable.
+But yes we can create another tuple with appended values
+'''
 
 #Q44. Take a tuple as an input and print the count of elements in it.
 
