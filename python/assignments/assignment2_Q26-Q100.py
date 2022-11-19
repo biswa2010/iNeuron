@@ -1,3 +1,7 @@
+#Q26. What is a string? How can we declare string in Python?
+
+#Q27. How can we access the string using its index?
+
 # Q28. Write a code to get the desired output of the following
 '''
 string = "Big Data iNeuron"
@@ -29,6 +33,10 @@ string = "Big Data iNeuron"
 desired_output = string[-1::-1]
 
 print(desired_output)
+
+#Q31. How can you delete entire string at once?
+
+#Q32. What is escape sequence?
 
 #Q33. How can you print the below string?
 '''
