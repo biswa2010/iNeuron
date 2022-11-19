@@ -1,7 +1,15 @@
 ## Assignment Part-1
 #Q1. Why do we call Python as a general purpose and high-level programming language?
-
+"""
+Python doesn't interact with the machine directly with the machine rather through the interpreter which makes it a HLL. 
+Also python is known as a general purpose programming language as it's not for any specific problems but we can use this for
+ML, AI, data engineering, software development etc.
+"""
 #Q2. Why is Python called a dynamically typed language?
+
+""" 
+Python is known as dynamically typed language because we don't mention any variable type and the type is determined during runtime.
+"""
 
 #Q3. List some pros and cons of Python programming language?
 
@@ -28,11 +36,17 @@
 #Q14. What are operators in Python?
 
 #Q15. What is difference between / and // operators?
+'''
+'/' is used for division and result a 'float' value
+'//' is used for division and result a 'int' value
+'''
 
 #Q16. Write a code that gives following as an output.
 '''
 iNeuroniNeuroniNeuroniNeuron
 '''
+str = "iNeuron"
+print(str*4)
 
 #Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
@@ -60,8 +74,35 @@ True and False and True
 numbers = [12, 75, 150, 180, 145, 525, 50]
 '''
 
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+def getSum(numbers):
+    sum = 0
+    for num in numbers:
+        if num % 2 == 0:
+            sum +=num
+    return sum
+
+print(getSum(numbers))
 
 #Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+num_1 = input("Enter num_1:")
+num_2 = input("Enter num_2:")
+num_3 = input("Enter num_3:")
+greatestNum = num_1
+
+if num_1 >= num_2:
+    if num_1 >= num_3:
+        greatestNum = num_1
+    else:
+        greatestNum = num_3
+elif num_2 >= num_3:
+    greatestNum = num_2
+else:
+    greatestNum = num_3
+
+print(greatestNum)
 
 #Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
@@ -73,3 +114,13 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 '''
 numbers = [12, 75, 150, 180, 145, 525, 50]
 '''
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+for num in numbers:
+    if num > 500:
+        break
+    elif num > 150:
+        continue 
+    elif  num % 5 == 0:
+        print(num)
