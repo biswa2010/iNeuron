@@ -220,9 +220,26 @@ print(type(var))
 ### Coding problems
 #Q76. Write a Python program to find the factorial of a given number.
 
+num = int(input("Enter the a non negative number:"))
+result = 1
+
+while num > 0:
+    result = result * num
+    num = num - 1
+print(result)
+
 #Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (P*R*T)/100
 
+def getSimpleInterest(p, t, r):
+    return (p * r * t)/100
+print(getSimpleInterest(100, 5, 10))  # p, t, r can be taken as input
+
+
 #Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
+
+def getSimpleInterest(p, t, r):
+    return p * (1 + r / 100)**t
+print(getSimpleInterest(100, 5, 10)) # p, t, r can be taken as input
 
 #Q79. Write a Python program to check if a number is prime or not.
 
@@ -238,7 +255,21 @@ print(type(var))
 
 #Q85. Write a Python program to find cumulative sum of a list.
 
+list1 = [1,2,3,4,5]
+result = 0
+
+for num in list1:
+    result += num
+print(result)
+
 #Q86. Write a Python program to check if a string is palindrome or not.
+
+input_str = input("Enter a string to check pallindrome:") 
+if input_str == input_str[-1::-1]:
+    print("It is pallindrome")
+else:
+    print("It is not a pallindrome")
+
 
 #Q87. Write a Python program to remove i'th element from a string.
 
