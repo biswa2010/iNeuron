@@ -1,6 +1,17 @@
 #Q26. What is a string? How can we declare string in Python?
 
+'''
+strings are a collection of characters surrounded by quotes. And strings are immutable in python.
+
+string_name = "string_value"
+string_name2 = str("1002")
+'''
+
 #Q27. How can we access the string using its index?
+
+'''
+strVariableName[<index>]
+'''
 
 # Q28. Write a code to get the desired output of the following
 '''
@@ -36,7 +47,14 @@ print(desired_output)
 
 #Q31. How can you delete entire string at once?
 
+str1 = "hello"
+del str1
+
 #Q32. What is escape sequence?
+
+'''
+escape sequence are used to use some escape characters using "\" by which interpreter doesn't interprete it as a special character and its considered as a string literal.
+'''
 
 #Q33. How can you print the below string?
 '''
@@ -47,12 +65,15 @@ print(string)
 
 #Q34. What is a list in Python?
 
-#Q35. How can you create a list in Python?
-
 '''
 List is a data structure in python which are used to store multiple items in a single variable. 
 There is no restrictions that it can store a same type of values
 '''
+
+#Q35. How can you create a list in Python?
+
+list_1 = []
+list_2 = [1,2, "hello", (1,2)]
 
 #Q36. How can we access the elements in a list?
 '''
@@ -113,6 +134,10 @@ But yes we can create another tuple with appended values
 '''
 
 #Q44. Take a tuple as an input and print the count of elements in it.
+
+input = tuple(input("Enter space separated tuple values").split(" "))
+
+print(len(input))
 
 #Q45. What are sets in Python?
 '''
