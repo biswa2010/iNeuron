@@ -205,41 +205,121 @@ dict_2 = {5:6, "hello":5, 10:[1,2,3]}
 var = {}
 print(type(var))
 '''
+'''
 <class 'dict'>
+'''
 
 #Q59. How can we add an element in a dictionary?
 
+dict_1 = {1:"hello","A":1}
+dict_1[3] = 5
+print(dict_1)
+
 #Q60. Create a dictionary and access all the values in that dictionary.
+
+dict_1 = {1:"hello","A":1}
+dict_1[3] = 5
+print(dict_1)
+
+for values in dict_1.values():
+    print(values)
 
 #Q61. Create a nested dictionary and access all the element in the inner dictionary.
 
+dict_1 = {1:"hello","A":1,"numbers":{5:"five",6:"six"}}
+
+for elems in dict_1["numbers"].items():
+    print(elems)
+
 #Q62. What is the use of get() function?
+
+'''
+get(<key_name>) is used to get the corresponding value
+'''
 
 #Q63. What is the use of items() function?
 
+'''
+items() is used for getting all the elements(key-values pairs) from a dictionary.
+'''
+
 #Q64. What is the use of pop() function?
+'''
+pop(<key>) is used for deleting the coressponding element from a dicationary
+'''
 
 #Q65. What is the use of popitems() function?
 
+'''
+popitem() removes the last inserted item from a dicationary.
+'''
+
 #Q66. What is the use of keys() function?
+
+'''
+keys() returns a list of all the keys present in a dictionary
+
+'''
 
 #Q67. What is the use of values() function?
 
+'''
+values() returns a list of all the values present in a dictionary
+
+'''
+
+
 #Q68. What are loops in Python?
+
+'''
+loops are used to do some operations iteratively based on given conditions
+''
 
 #Q69. How many type of loop are there in Python?
 
+'''
+for loop and while loop
+'''
+
 #Q70. What is the difference between for and while loops?
+
+'''
+for loop works on known collection
+while loop works on some given conditions
+'''
 
 #Q71. What is the use of continue statement?
 
+'''
+continue statement skips the current iteration and moves to next iteration
+'''
+
 #Q72. What is the use of break statement?
+
+'''
+break statement breaks out of the current loop and skips all further iterations
+'''
 
 #Q73. What is the use of pass statement?
 
+'''
+The pass statement is used as a placeholder for future code.
+When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
+
+'''
+
 #Q74. What is the use of range() function?
 
+'''
+
+range() creates a sequence from the start index till end index (end index excluded)
+'''
+
 #Q75. How can you loop over a dictionary?
+
+'''
+for item in dict_name.items():
+'''
 
 
 ### Coding problems
