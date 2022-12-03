@@ -42,3 +42,6 @@ Git commands:
 	git branch -M main
 Datasets:
 	https://github.com/datasciencedojo/datasets/blob/master/titanic.csv
+	
+Pandas Doc:
+	https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
