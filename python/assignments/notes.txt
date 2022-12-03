@@ -1,0 +1,41 @@
+Link to class codes:
+
+	https://github.com/shashank-ineuron/Python-Class
+Assignment:
+
+	https://github.com/vishalsingh17/PythonBigDataQuestions/blob/main/Assignment.txt
+	
+
+Escape sequence:
+	https://www.geeksforgeeks.org/preventing-escape-sequence-interpretation-in-python/
+
+Resources for bigdata and ML:
+	https://www.youtube.com/watch?v=KCEPoPJ8sWw&t=5321s&ab_channel=Simplilearn
+	https://trino.io/episodes/5.html
+	https://github.com/datastacktv/data-engineer-roadmap
+	https://www.guru99.com/bigdata-tutorials.html
+	https://data-flair.training/courses/big-data-hadoop-sp-1/
+	https://medium.com/@atmabodha/nlp90-self-learn-nlp-in-90-hours-bec782ca10df
+	https://www.youtube.com/watch?v=MCx2j2lHxFk&list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ&index=11&ab_channel=KunalCholera
+	https://www.youtube.com/watch?v=Uy4BvpWB4fI&list=PLsikuZM13-0wkyj51fn4VSueGZ2HBptS7&index=4&ab_channel=KnowledgeHutupGrad
+	https://www.youtube.com/watch?v=U0iwA473r1c&t=3s&ab_channel=WafaStudies (pyspark playlist)
+	https://www.youtube.com/watch?v=2hPCX-p_X8Q&ab_channel=DarshilParmar
+System design:
+	https://github.com/donnemartin/system-design-primer
+	https://www.youtube.com/watch?v=bUHFg8CZFws&ab_channel=SystemDesignInterview
+	https://medium.com/@raxshah/system-design-design-a-distributed-job-scheduler-kiss-interview-series-753107c0104c
+	https://www.youtube.com/watch?v=-W9F__D3oY4&ab_channel=JorgeScott
+	https://hub.packtpub.com/mongodb-sharding-clusters-choosing-right-shard-key/
+	https://adtechexplained.com/google-pair-a-not-so-universal-identity-solution/?ref=Ad+Tech+Explained-newsletter
+
+
+Github setup:
+	https://opaque-fossa-70b.notion.site/Git-Installation-d606143e2ae943e3b92f68e0599b5cac
+Git commands:
+
+	git init
+	git add .
+	git commit -m 'hello'
+	git remote add origin <my repo link>
+	git push origin <main branch /master branch etc>
+	git branch -M main
