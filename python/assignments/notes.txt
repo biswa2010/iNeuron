@@ -32,6 +32,8 @@ System design:
 
 Github setup:
 	https://opaque-fossa-70b.notion.site/Git-Installation-d606143e2ae943e3b92f68e0599b5cac
+Git docs:
+	https://github.com/vishalsingh17/Git-Github/blob/main/README.md
 Git commands:
 
 	git init
@@ -45,3 +47,4 @@ Datasets:
 	
 Pandas Doc:
 	https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+	https://pandas.pydata.org/docs/user_guide/index.html#user-guide
