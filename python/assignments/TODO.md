@@ -3,3 +3,4 @@
 - Python OOPs
 - Hadoop Architecture
 - Docker & Kubernates
+- Make use of discord
