@@ -5,3 +5,4 @@
 - Docker & Kubernates
 - Make use of discord
 - Spark Wafa Studies
+- Understand Hadoop UI
