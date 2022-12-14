@@ -49,3 +49,4 @@ Datasets:
 Pandas Doc:
 	https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
 	https://pandas.pydata.org/docs/user_guide/index.html#user-guide
+	https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
