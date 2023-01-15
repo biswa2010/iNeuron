@@ -52,3 +52,5 @@ Pandas Doc:
 	https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
 Haddop Commands:
 	https://github.com/shashank-ineuron/hadoop
+Docker:
+	https://github.com/vishalsingh17/TouristPackagePrediction
