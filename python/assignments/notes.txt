@@ -4,6 +4,7 @@ Link to class codes:
 	https://github.com/biswa2010/BigDataPandas
 	https://github.com/shashank-ineuron/SQL
 	https://github.com/shashank-ineuron/hadoop
+	https://github.com/shashank-ineuron/Hive/tree/main
 Assignment:
 
 	https://github.com/vishalsingh17/PythonBigDataQuestions/blob/main/Assignment.txt
