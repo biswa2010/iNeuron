@@ -5,6 +5,7 @@ Link to class codes:
 	https://github.com/shashank-ineuron/SQL
 	https://github.com/shashank-ineuron/hadoop
 	https://github.com/shashank-ineuron/Hive/tree/main
+	https://github.com/vishalsingh17/HiveHadoopDockerComposeSetup
 Assignment:
 
 	https://github.com/vishalsingh17/PythonBigDataQuestions/blob/main/Assignment.txt
