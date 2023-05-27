@@ -1,0 +1,46 @@
+A1.
+
+A2.
+
+A3.
+
+A4.
+
+A5.
+
+A6.
+
+import java.util.Arrays;
+
+class HelloWorld {
+    
+    static boolean findDuplicate(int arr[]){
+        int size = arr.length;
+        boolean flag = false;
+        
+        Arrays.sort(arr);
+        if(size < 2){
+            return flag;
+        }
+        
+        for(int i = 0;i<size-1;i++){
+            int cur = arr[i];
+            int next = arr[i+1];
+            
+            if(cur == next){
+                flag = true;
+                break;
+            }
+        }
+        
+        return flag;
+    }
+    public static void main(String[] args) {
+        int price[] = {7,2,3,6,4};
+        System.out.println( findDuplicate(price) );
+    }
+}
+
+A7.
+
+A8.
